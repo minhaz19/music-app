@@ -26,7 +26,7 @@ const App = () => {
 
 	return (
 		<SafeAreaProvider>
-			<GestureHandlerRootView style={{ flex: 1 }}>
+			<GestureHandlerRootView style={{ flex: 1, marginTop: 0 }}>
 				<RootNavigation />
 
 				<StatusBar style="auto" />

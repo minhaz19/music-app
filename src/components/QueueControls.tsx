@@ -17,7 +17,6 @@ export const QueueControls = ({ tracks, style, ...viewProps }: QueueControlsProp
 
 	const handleShufflePlay = async () => {
 		const shuffledTracks = [...tracks].sort(() => Math.random() - 0.5)
-
 		await TrackPlayer.setQueue(shuffledTracks)
 		await TrackPlayer.play()
 	}

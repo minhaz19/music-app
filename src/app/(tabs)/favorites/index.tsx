@@ -17,6 +17,7 @@ const FavoritesScreen = () => {
 
 	const favoritesTracks = useFavorites().favorites
 
+
 	const filteredFavoritesTracks = useMemo(() => {
 		if (!search) return favoritesTracks
 

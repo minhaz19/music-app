@@ -31,6 +31,7 @@ const TabsNavigation = () => {
 								overflow: 'hidden',
 								borderTopLeftRadius: 20,
 								borderTopRightRadius: 20,
+								backgroundColor: colors.textMuted
 							}}
 						/>
 					),
